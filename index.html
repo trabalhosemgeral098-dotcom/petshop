@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Gatos aleatorios</h1>
+        <img src="" id="imagem" alt="imagem de um gato">
+        <button onclick="apigato()">Gerarfoto</button>
+        <section>
+            <h2>E conversao de moedas</h2>
+            <form id="conversao">
+                <input type="number" id="valor" placeholder="Digite o valor">
+                <label>de:</label>
+                <select id="MoedaOrigem">
+                    <option value="BRL">Real</option>
+                    <option value="USD">Dolar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="ARS">Peso (chile)</option>
+                </select>
+                <label>Para:</label>
+                <select id="MoedaDestino">
+                    <option value="BRL">Real</option>
+                    <option value="USD">Dolar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="ARS">Peso (chile)</option>
+                </select>
+                <button type="submit"></button>
+                <p id="convertido"></p>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
