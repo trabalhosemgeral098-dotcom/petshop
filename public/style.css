@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(240, 238, 238);
+}
+
+header{
+    background: rgba(240, 238, 238, 0.897);
+    font-family: fantasy;
+    text-align: center;
+    align-items: center;
+}
+
+#telaCadastro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#formAtendimento{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}

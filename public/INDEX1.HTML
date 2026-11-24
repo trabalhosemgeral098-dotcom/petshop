@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual - Mercado Pago</title>
+</head>
+<body>
+    <h1>Loja Virtual</h1>
+    <form id="formPagamento">
+        <label for="produto">Produto:</label>
+        <input type="text" id="produto" value="Produto" required>
+        <br><br>
+        <label for="valor">Valor (R$):</label>
+        <input type="number" id="valor" value="50" min="0.01" step="0.01" required>
+        <br><br>
+        <button type="submit">Comprar</button>
+    </form>
+    <p id="mensagem"></p>
+    <script src="script.js"></script>
+</body>
+</html>
